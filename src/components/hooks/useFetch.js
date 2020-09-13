@@ -3,16 +3,18 @@ import axios from "axios";
 
 export const useFetch = ( ) => {
     
+    
     const [state, setState] = useState([]);
 
     useEffect(() => {
         
         async function fetchNormal(){
-            const response = await fetch('https://api-v3.igdb.com/games', {
+            const response = await fetch('https://cors-anywhere.herokuapp.com/https://api-v3.igdb.com/games', {
                 method: 'POST',
                 headers: {
                     'Access-Control-Allow-Origin': '*', 
-                    'Content-type': 'application/json',
+                    'Access-Control-Allow-Methods': 'POST',
+                    'Content-type': 'application/x-www-form-urlencoded',
                     'user-key': '3675a446bba75463e0c389758b48cfdd',
                 },
                 body: 'fields name,summary, cover.image_id;sort popularity desc;where rating >= 90;where first_release_date >1577750400 & first_release_date <1598832000;limit 10;'
