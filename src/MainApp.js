@@ -12,7 +12,7 @@ export const MainApp = () => {
 
   return (
     <>
-      <h1>Bootstrap carrousel modified whith sass(grid layout)</h1>
+      <h1>Bootstrap carrousel modified whith sass1(grid layout)</h1>
       <Carousel interval={null} fade={true}>
         {state.map((item) => (
           <Carousel.Item key={item.id}>
