@@ -27,6 +27,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+<<<<<<< HEAD
     - name: Deploy
   run: |
     git config --global user.name $user_name
@@ -38,3 +39,5 @@ jobs:
     user_email: 'github-actions[bot]@users.noreply.github.com'
     github_token: ${{ secrets.JOHAN }}
     repository: ${{ github.bootstrap-react }}
+=======
+>>>>>>> 007aeb9787100a972b72d053f1cbc0a7e3155914
