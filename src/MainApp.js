@@ -8,7 +8,7 @@ export const MainApp = () => {
   const state = useFetch();
   console.log(state);
   const imgSize = "cover_big";
-  // console.log(fetchNormal);
+
 
   return (
     <>
