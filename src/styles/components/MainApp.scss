@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 264px 1fr;
   grid-template-rows: 40px 1fr;
-
+  grid-gap: 50px;
   & img {
     grid-column: 1;
     grid-row: 1 / span 2;
