@@ -2,7 +2,7 @@
   "name": "bootstrap-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JohanSuarezQ.github.io/bootstrap-react ",
+  "homepage": "http://johansuarezq.github.io/bootstrap-react",
   "proxy": "https://api-v3.igdb.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
